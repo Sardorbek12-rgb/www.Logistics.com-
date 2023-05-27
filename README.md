@@ -1,46 +1,14 @@
-11:31:15 PM: Netlify Build                                                 
-11:31:15 PM: ────────────────────────────────────────────────────────────────
-11:31:15 PM: ​
-11:31:15 PM: ❯ Version
-11:31:15 PM:   @netlify/build 29.11.6
-11:31:15 PM: ​
-11:31:15 PM: ❯ Flags
-11:31:15 PM:   baseRelDir: true
-11:31:15 PM:   buildId: 64724c629837772acf41cc92
-11:31:15 PM:   deployId: 64724c629837772acf41cc94
-11:31:15 PM: ​
-11:31:15 PM: ❯ Current directory
-11:31:15 PM:   /opt/build/repo
-11:31:15 PM: ​
-11:31:15 PM: ❯ Config file
-11:31:15 PM:   No config file was defined: using default values.
-11:31:15 PM: ​
-11:31:15 PM: ❯ Context
-11:31:15 PM:   production
-11:31:15 PM: ​
-11:31:15 PM: Build command from Netlify app                                
-11:31:15 PM: ────────────────────────────────────────────────────────────────
-11:31:15 PM: ​
-11:31:15 PM: $ logisticas.uz
-11:31:15 PM: bash: logisticas.uz: command not found
-11:31:15 PM: ​
-11:31:15 PM: "build.command" failed                                        
-11:31:15 PM: ────────────────────────────────────────────────────────────────
-11:31:15 PM: ​
-11:31:15 PM:   Error message
-11:31:15 PM:   Command failed with exit code 127: logisticas.uz (https://ntl.fyi/exit-code-127)
-11:31:15 PM: ​
-11:31:15 PM:   Error location
-11:31:15 PM:   In Build command from Netlify app:
-11:31:16 PM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
-11:31:15 PM:   logisticas.uz
-11:31:15 PM: ​
-11:31:15 PM:   Resolved config
-11:31:15 PM:   build:
-11:31:15 PM:     command: logisticas.uz
-11:31:15 PM:     commandOrigin: ui
-11:31:15 PM:     publish: /opt/build/repo
-11:31:15 PM:     publishOrigin: default
-11:31:16 PM: Build failed due to a user error: Build script returned non-zero exit code: 2
-11:31:16 PM: Failing build: Failed to build site
-11:31:17 PM: Finished processing build request in 11.026s
+11:27:22 PM: build-image version: 4b067841aaa59ef71931d3505b98c2bc3e63f36f (focal)
+11:27:22 PM: buildbot version: a97756545adbd82de83b06c902122c919d70e7f2
+11:27:22 PM: Fetching cached dependencies
+11:27:22 PM: Failed to fetch cache, continuing with build
+11:27:22 PM: Starting to prepare the repo for build
+11:27:22 PM: No cached dependencies found. Cloning fresh repo
+11:27:22 PM: git clone --filter=blob:none git@bitbucket.org:tolqin/sardor-team
+11:27:22 PM: Preparing Git Reference refs/heads/logisticas
+11:27:23 PM: Failing build: Failed to parse configuration
+11:27:24 PM: Failed during stage 'Reading and parsing configuration files': 
+When resolving config:
+Base directory does not exist: /opt/build/repo/logisticas
+
+: exit status 1
